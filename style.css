@@ -1,0 +1,53 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+a:link {
+	text-decoration: none;
+	color: #000000;
+	}
+	
+	a:visited {
+	text-decoration: none;
+	color: #000000;
+	}
+	
+	a:hover {
+	text-decoration: underline;
+	color: #000000;
+	}
+	
+	a:active {
+	text-decoration: underline;
+	color: #000000;
+	}
+
+html,
+body,
+#map {
+	height: 100%;
+	width: 100%;
+	z-index: 0;
+}
+
+.header {
+    height: 4em;
+    min-width: 300px;
+    z-index: 1;
+	font-family: "Open Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    color: #000000;
+	position: absolute;
+	top: .6em;
+	left: .6em;
+  }
+  
+  .lk {
+  font-size: 2.2em;
+  font-weight: 700;
+  }
+  
+  .path {
+  font-size: 1.3em;
+  font-weight: 700;
+  }
