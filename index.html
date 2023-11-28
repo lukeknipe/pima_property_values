@@ -24,14 +24,14 @@
     map.on('load', function () {
       map.addSource('value_per', {
         type: 'vector',
-        url: 'mapbox://lukeknipe.az3evput'  // Tileset URL
+        url: 'mapbox://lukeknipe.9fqs5eso'  // Tileset URL
       });
 
       map.addLayer({
         'id': 'value_per',
         'type': 'circle',
         'source': 'value_per',
-        'source-layer': 'value_per',
+        'source-layer': 'pima_value_per_2024',
         paint: {
           'circle-opacity': 0 // Setting opacity to zero because this feature is only here to supply data to the popup
         }
@@ -67,18 +67,18 @@
 
       // define layer names
       const layers = [
-        '0 - 108',
-        '108 - 117',
-        '117 - 124',
-        '124 - 130',
-        '130 - 135',
-        '135 - 141',
-        '141 - 148',
-        '148 - 155',
-        '155 - 165',
-        '165 - 179',
-        '179 - 201',
-        '201 +',
+        '0 - 133',
+        '133 - 144',
+        '144 - 152',
+        '152 - 159',
+        '159 - 165',
+        '165 - 172',
+        '172 - 180',
+        '180 - 188',
+        '188 - 199',
+        '199 - 214',
+        '214 - 240',
+        '240 +',
       ];
 
     const colors = [
