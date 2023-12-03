@@ -135,11 +135,31 @@
 
       });
 
+      window.onload = function(){
+    document.getElementById('close').onclick = function(){
+        this.parentNode.parentNode.remove();
+        return false;
+    };
+};
+
 </script>
 
 <div class="header">
   <span class="lk"><a href="https://lukeknipe.com">LK</a></span><span class="path"> > <a href="https://lukeknipe.com/maps">Maps</a></span>
 </div>
+
+<br /><br />
+<a class="windowbox" href="google.com">
+    <div>
+        <span id='close'>x</span>
+        <img src ="http://placehold.it/116x116" alt="some description"/> 
+        <h3>the title will go here</h3>
+        <h4> www.myurlwill.com </h4>
+        <p class="text">
+            this is a short description yada yada peanuts etc this is a short description yada yada peanuts etc this is a short description yada yada peanuts etc this is a short description yada yada peanuts etcthis is a short description yada yada peanuts etc 
+        </p>
+    </div>
+</a>
 
 </body>
 </html>
