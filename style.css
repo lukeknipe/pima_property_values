@@ -33,6 +33,7 @@ body {
 	background-color: #1963D1;
 	color: #FFFFFF;
 	padding:4px;
+	z-index: 2;
   }
   #left {
 	overflow: hidden;
