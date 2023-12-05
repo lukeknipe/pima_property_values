@@ -33,29 +33,24 @@ body {
 	background-color: #1963D1;
 	color: #FFFFFF;
 	padding:4px;
-	z-index: 2;
   }
   #left {
 	overflow: hidden;
 	text-align: center;
 	height: 20px;
-	z-index: 2;
   }
   #right {
 	float: right;
 	width: 30px;
 	height: 20px;
 	text-align: center;
-	z-index: 2;
   }
   .ShowHide a {
 	 color: #FFFFFF;
 	 text-decoration: none;
-	 z-index: 2;
   }
   .ShowHide a:hover {
 	 text-decoration:underline;
-	 z-index: 2;
   }
 
  #legend {
