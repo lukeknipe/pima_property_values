@@ -33,6 +33,9 @@ body {
 	background-color: #1963D1;
 	color: #FFFFFF;
 	padding:4px;
+	position: absolute;
+	top: .6em;
+	left: .6em;
   }
   #left {
 	overflow: hidden;
