@@ -36,6 +36,8 @@ body {
 	position: absolute;
 	top: .6em;
 	right: .6em;
+	max-width: 25%;
+	height: 20%;
   }
   #left {
 	overflow: hidden;
