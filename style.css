@@ -35,7 +35,7 @@ body {
 	padding:4px;
 	position: absolute;
 	top: .6em;
-	left: .6em;
+	right: .6em;
   }
   #left {
 	overflow: hidden;
